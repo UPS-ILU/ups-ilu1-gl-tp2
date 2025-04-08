@@ -60,6 +60,7 @@ public class CoffeeMakerScenarios {
 	}
 
 	private void testMakeCoffee() {
+		cm.addRecipe(r1);
 		assertEquals(25, cm.makeCoffee(0, 75), "testMakeCoffee passed with success");
 	}
 
